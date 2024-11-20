@@ -34,3 +34,4 @@ from math import * #pi kasutamiseks ulesanne 4
 # d=l/pi
 # print(f"Läbimõõdu suurus on {d}")
 
+
