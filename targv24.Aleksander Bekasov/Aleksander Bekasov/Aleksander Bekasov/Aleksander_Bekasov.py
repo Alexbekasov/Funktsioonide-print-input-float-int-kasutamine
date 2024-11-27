@@ -72,3 +72,15 @@ print(f"Ringi ümbermõõt: {U_ring:.2f}")
 # Koosta programm, mis arvutab välja Maa ümbermõõdu ekvaatori kohal 2-eurostes müntides ehk teisisõnu
 #  kui palju 2-euroseid münte tuleb panna üksteise kõrvale, et rida ulatuks ümber Maa. Kasuta teadmist, et Maa raadius ekvaatori kohal on 6378 km. 
 
+d=2.575 # mundi diameeter cm
+maa=6378 #maa radius km
+maa*=100000 # maa raadius in cm
+Labimootmaa=2*math.pi*maa
+kogus=int(Labimootmaa/d)
+print(f"On vaja {kogus} mündi. \nMeil on vaja {kogus*2} eur")
+
+# Ülesanne 5
+# Eelnevaid teadmisi kasutades kirjuta programm, mis väljastaks:
+# kill-koll kill-koll killadi-koll kill-koll kill-koll killadi-koll kill-koll kill-koll killkoll
+# kill-koll
+
