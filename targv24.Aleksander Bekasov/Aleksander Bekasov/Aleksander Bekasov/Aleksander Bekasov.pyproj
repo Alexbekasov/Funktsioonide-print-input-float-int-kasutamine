@@ -2,15 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>8b51b2ae-f2f2-4b61-8751-607364444df7</ProjectGuid>
+    <ProjectGuid>087f8662-0698-436d-8a05-ff6d2a6cd3f7</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>targv24.Aleksander_Bekasov.py</StartupFile>
+    <StartupFile>Aleksander_Bekasov.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>targv24.Aleksander Bekasov</Name>
-    <RootNamespace>targv24.Aleksander Bekasov</RootNamespace>
+    <Name>Aleksander Bekasov</Name>
+    <RootNamespace>Aleksander Bekasov</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,8 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="2.py" />
-    <Compile Include="targv24.Aleksander_Bekasov.py" />
+    <Compile Include="Aleksander_Bekasov.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
